@@ -127,6 +127,10 @@
                 <version>2.9</version>
                 <configuration>
                     <reportVersion>2.6.0</reportVersion>
+                    <installDirectory>${project.build.directory}</installDirectory>
+                    <allureDownloadUrl>
+                        http://artifactory/artifactory/remote-repos/io/qameta/allure/allure-commandline/2.6.0/allure-commandline-2.6.0.zip
+                    </allureDownloadUrl>
                 </configuration>
             </plugin>
 <!--            <plugin>-->
